@@ -1,7 +1,7 @@
 {
   "name": "student-friendly-report",
   "version": "1.0.0",
-  "description": "Use XML report files of your Maven project to aggregate the information. You can use it in your Github Actions workflow",
+  "description": "A GitHub action to provide feedback on Java source code quality. It is triggered on a pull request, and a report is emitted as a comment to the PR.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
