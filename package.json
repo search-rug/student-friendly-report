@@ -1,0 +1,30 @@
+{
+  "name": "student-friendly-report",
+  "version": "1.0.0",
+  "description": "Use XML report files of your Maven project to aggregate the information. You can use it in your Github Actions workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/search-rug/student-friendly-report.git"
+  },
+  "keywords": [
+    "Github",
+    "Actions"
+  ],
+  "author": "tupac-rocher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/search-rug/student-friendly-report/issues"
+  },
+  "homepage": "https://github.com/search-rug/student-friendly-report#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3",
+    "csv-parser": "^3.0.0",
+    "node-html-parser": "^5.3.3",
+    "xml2js": "^0.4.23"
+  }
+}
